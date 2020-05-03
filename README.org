@@ -1,7 +1,7 @@
 #+TITLE: Canvas
 Playing around with the canvas element
 
-* Running
+** Running
 #+BEGIN_SRC bash 
 npm install
 npm start
