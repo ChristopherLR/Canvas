@@ -12,7 +12,7 @@ const server = http.createServer(app);
 let s_io = io(server);
 app.use(express.static(dir_name));
 
-const port = 80;
+const port = 5670;
 // const ws = new WebSocket.Server({server});
 
 app.get("/", (req, res) => {

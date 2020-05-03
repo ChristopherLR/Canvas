@@ -1,4 +1,4 @@
-let socket = io();
+let socket = io("http://192.168.1.133:5670/");
 
 socket.on('connect', () => {
 		socket.send('Connected');

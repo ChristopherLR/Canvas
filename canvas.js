@@ -59,7 +59,7 @@ let ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 300; i++) {
   let x = Math.random() * canvas.width;
   let y = Math.random() * canvas.height;
   let r = Math.random() * 40;
